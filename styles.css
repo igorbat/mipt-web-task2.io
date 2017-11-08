@@ -1,0 +1,68 @@
+body {
+  background-color: rgb(243, 234, 245);
+}
+
+header {
+  text-align:center;
+  border: 4px double black;
+  font-size: 30pt;
+  font-weight: bold;
+  margin: 20px 40px;
+}
+
+
+.articles {
+  width: 70%;
+  margin: 0px auto;
+  position: absolute;
+}
+
+.about {
+  background: rgb(206, 217, 0);
+  border: 1px solid black;
+  border-radius: 20px;
+  padding: 10px;
+  margin: 10px;
+}
+
+.experience {
+  background: rgb(206, 217, 0);
+  border: 1px solid black;
+  border-radius: 20px;
+  padding: 10px;
+  margin: 10px;
+}
+
+.contacts {
+  background: rgb(206, 217, 0);
+  border: 1px solid black;
+  border-radius: 20px;
+  padding: 10px;
+  margin: 10px;
+}
+
+.about > .header > .title {
+  font-size: 18pt;
+  font-weight: bold;
+}
+
+.experience > .header > .title {
+  font-size: 18pt;
+  font-weight: bold;
+}
+.contacts > .header > .title {
+  font-size: 18pt;
+  font-weight: bold;
+}
+
+.contacts > .header > .title:hover {
+  color: red;
+}
+
+.experience > .header > .title:hover {
+  color: white;
+}
+
+.about > .header > .title:hover {
+  color: green;
+}
